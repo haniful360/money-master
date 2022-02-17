@@ -24,13 +24,15 @@ function expensesAccount() {
     // balance
     const balance = document.getElementById('balance');
     balance.innerText = myIncome;
+    // error handle
+    if (foodExpenses < 0 || rentExpenses < 0 || clothesExpenses < 0 || totalIncome < 0) {
+        alert('Please Enter Positive Number');
 
+    }
 }
 //total expenses & balance calculate handle event
 document.getElementById('calculate-btn').addEventListener('click', function () {
-
     expensesAccount();
-
 
 });
 

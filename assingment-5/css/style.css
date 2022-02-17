@@ -1,3 +1,4 @@
+
 /* google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Lato:ital,wght@0,300;0,400;1,700&family=Poppins:wght@400;600;700&display=swap');
 *{
@@ -18,7 +19,6 @@ input{
     outline-style: none;
     font-size: 15px;
     padding: 0 10px;
-    
 }
 /*============== header part start============ */
 .dollar-account{
@@ -38,7 +38,6 @@ input{
 .bacheor-dollar-account{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
 }
 .left-part{
     width:100%;
@@ -102,8 +101,7 @@ input{
 /*=========== Mobile view===========*/
 @media (max-width:688px) {
     input{
-        width:120px;
-        
+        width:120px;  
     }
     .bacheor-dollar-account{
         grid-template-columns: 1fr;
